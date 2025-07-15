@@ -14,4 +14,16 @@ public class HomeController {
         ModelAndView home = new ModelAndView("home"); 
          return home;
 	}
+	
+	 @GetMapping("/register")
+	    public ModelAndView  showRegisterPage() {
+		 ModelAndView register = new ModelAndView("register");
+	        return register; 
+	    }
+	 
+	 @GetMapping("/login")
+	 public ModelAndView showLoginpage() {
+		 ModelAndView login =new ModelAndView("Login");
+		 return login;
+	 }
 }

@@ -68,7 +68,7 @@
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
             </ul>
         </div>
     </div>
@@ -79,7 +79,7 @@
     <div>
         <h1>Welcome to SkillScreen</h1>
         <p>smart skill evaluation platform.</p>
-        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="/skillscreen/register" class="btn btn-primary btn-lg">Get Started</a>
         <a href="#" class="btn btn-outline-light btn-lg">Learn More</a>
     </div>
 </div>

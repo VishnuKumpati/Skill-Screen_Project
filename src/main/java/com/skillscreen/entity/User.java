@@ -3,6 +3,8 @@ package com.skillscreen.entity;
 import org.hibernate.annotations.GeneratorType;
 import org.hibernate.annotations.ManyToAny;
 
+import com.skillscreen.entity.Role.RoleName;
+
 import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
